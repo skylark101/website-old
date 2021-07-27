@@ -185,6 +185,10 @@
   .projInfo p{
     width:100%;
   }
+  .pro1,.pro2,.pro3{
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
 }
 @media only screen and (max-width:613px){
   .about_me{
