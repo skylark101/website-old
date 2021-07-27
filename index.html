@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ansh Khattar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<body>
+  <div>
+  <button onclick="topFunction();" class="myButton"><i class="fa fa-angle-up"></i></button>
+</div>
+  <div class="container-one">
+
+    <!----------------------Navbar--------------------->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light .bg-transparent">
+      <div class="container">
+        <div class="AK">ANSH KHATTAR</div>
+        <img src="./images/AK_logo.png" alt="" class="logo" />
+
+
+        <!---------------Quick skills view card-------------->
+        <div onclick="rotate();" class="quickViewCard">
+          <div class="content">
+
+            <div class="cardFront">
+              <h3 class="cardTitle">Hey there</h3> <br>
+              <p class="frontInfo">Well,if you want to have a quick peek at my skills you are at the right place.
+              <div class="talent">
+                <ul>
+                  <div>
+                    <li>MERN<span class="bar"><span class="MERN"></span></span></li>
+                    <li>React <span class="bar"><span class="ReCt"></span></span></li>
+                    <li>JS Prog <span class="bar"><span class="JsPr"></span></span></li>
+                    <li>Java/C++/Python <span class="bar"><span class="JcPy"></span></span></li>
+                  </div>
+                  <div>
+                    <li>MS Office <span class="bar"><span class="MsOf"></span></span></li>
+                    <li>Content Writing <span class="bar"><span class="CoWr"></span></span></li>
+                    <li>Web Scraping <span class="bar"><span class="WeSc"></span></span></li>
+                  </div>
+                </ul>
+
+              </div> <br><span id="more" style="color:white !important;font-weight:bold">Also, click for more info.</span>
+              </p>
+            </div>
+
+            <div class="cardBack">
+              <div class="backInfo">
+                <h2>Hello again,</h2>
+                <br>
+                <p class="help"> Here is how you can connect with me. Below are all
+                  of my social media handles. Feel free to <span id="black" style="color: black;font-weight:bold">contact me for
+                    any sort of </span> collaboration.
+                  <br><br>
+                  Feel free to <a target="_blank" class="view" href="resume.html"> view </a> or <a target="_blank"
+                    href="https://drive.google.com/file/d/1ZJgC-DDPHbXkBF6NiNLgiiXkSOhSR4SP/view?usp=sharing">download</a>
+                  my
+                  resume.
+                  <br> <br>
+                  Also, here is one of my
+                  <a href="https://drive.google.com/file/d/13schRIpEvNsnp11hW3GprgWGjyQRrW6d/view?usp=sharing"
+                    target="_blank" style="width: 100%;">Research Paper</a> based on <b>Analysis of Job Scheduling
+                    Algorithms</b>.
+                </p>
+                <br> <br>
+              </div>
+              <div class="links">
+                <ul class="social">
+                  <li><a target="_blank" href="https://www.linkedin.com/in/ansh-khattar-b3077918b/"><i
+                        class="fa fa-linkedin"></i></a></li>
+                  <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100070088269830"><i
+                        class="fa fa-facebook"></i></a></li>
+                  <li><a target="_blank" href="https://twitter.com/ansh_khattar?s01"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li><a target="_blank" href="https://anshwebdev.blogspot.com/"><i class="fab fa-blogger"></i></a></li>
+                  <li><a target="_blank" href="https://github.com/skylark101"><i class="fa fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      
+        <div class="quickLinks">
+          <ul class="navbar-nav  navigation">
+            <li><a class="under" href="#about">About</a></li>
+            <li><a class="under" href="https://anshkhattar-resume.netlify.app/">Resume</a></li>
+            <li><a class="under" href="#projects">Portfolio</a></li>
+            <li>
+              <a class="under" target="_blank" href="https://anshwebdev.blogspot.com/">Blog</a>
+            </li>
+            <li><a class="under" href="#contact">Contact</a></li>
+          </ul>
+
+        </div>
+      </div>
+      <div onclick="display();"class="menu"><i class="fa fa-bars"></i></div>
+    </nav>
+
+
+
+
+
+    <!--------------------Space background and typing effect------------------------------->
+    <section class="mainSection">
+
+      <!------------------------Typing effect------------------------->
+
+      <div class="Introduction">
+        <div class="intro">
+          <span id="name"><span style="color: black">Hi</span> there</span><br />
+          <p style="color: black" id="hobby">I am</p>
+          <span class="text" data-wait="3000"
+            data-words='["Ansh Khattar","an Ergophile","a Developer","a Reader","a Foodie","a Movie Enthusiast"]'></span>
+        </div>
+      </div>
+
+      <div class="about_me">
+        <span id="what-i-do">What can I do?</span> <br />
+        <span class="underSec" id="more-abt-me"><a href="#skill">Learn More</a></span>
+      </div>
+    </section>
+  </div>
+
+  <!------------------General info section------------------>
+
+  <section class="sectionTwo">
+    <div id="about">
+      <div class="visualInfo">
+        <div class="formalInfo">
+          <h1>Profile</h1>
+          <ul>
+            <li><b>Full Name: Ansh Khattar</b></li>
+            <li><b>College: Vellore Institute of Technology, Chennai</b></li>
+            <li>Home: Lucknow</li>
+            <li><b>Phone Number: 9044850311</b></li>
+            <li><b>Email: anshkhattar10@gmail.com</b></li>
+            <li><b>CGPA: 9.02</b></li>
+          </ul>
+        </div>
+        <img class="proPic" src="./images/image2.jpg" alt="" />
+      </div>
+
+      <!--------------Para about me---------------->
+      <div class="aboutAnsh">
+        <h1>A little about me</h1>
+        <br />
+        <p>
+          I am a budding developer who is
+          also a Front end enthusiast. I hail from Lucknow, Uttar Pradesh and
+          found my passion in developing webites and web apps while I was a
+          freshman in college. <br />
+          <br />
+         <span class="extras">I find this field of Development and designing so interesting that I
+          often spend my time watching videos of CSS or JS animations.</span>  I also
+          <a target="_blank" id="blogLink" href="https://anshwebdev.blogspot.com/">blog</a>
+          about these things whenever I get stuck at some point and finally
+          when I find a solution I feel the need of sharing it with others.
+          <br />
+          <br />
+         <span class="extras"> Besides development</span>  I also enjoy Competitve coding regularly because
+          according to me that's one of the most significant digital footprint
+          one can create.
+        </p>
+      </div>
+    </div>
+    <!--------------------Skill-set--------------------->
+
+    <div id="skill"></div>
+    <div class="skill-info" >
+
+      <!------------------Info about skill-------------------->
+      <div id="skillSet">
+        <div class="skillDetail">
+          <div>
+             Well, here are some of my skills and what I've really learnt over the years.
+          </div>
+          <div>
+            <p>
+              <br />
+              Feel free to check out my performance on various Competitive coding
+              platforms:
+            </p>
+            <br />
+            <ul>
+              <li>
+                <a target="_blank" href="https://www.codechef.com/users/skylark101"><img src="./images/cc.png"
+                    alt="" /></a>
+              </li>
+              <li >
+                <a target="_blank" href="https://www.spoj.com/users/skylark101/"><img src="./images/spoj.png"
+                    alt="" /></a>
+              </li>
+              <br />
+              <li>
+                <a target="_blank" href="https://www.hackerrank.com/Ansh_K?hr_r=1"><img src="./images/HR.svg"
+                    alt="" /></a>
+              </li>
+              <li >
+                <a target="_blank" href="https://codeforces.com/profile/skylark101"><img src="./images/cf.png"
+                    alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--------------------Skill-meter---------------------->
+        <div class="skills">
+          <div id="list">
+            <h1>Skills</h1>
+            <ul>
+              <li>MERN Stack <span class="bar"><span class="MERN"></span></span></li>
+              <li>Java | C++ | Python <span class="bar"><span class="JcPy"></span></span></li>
+              <li>React <span class="bar"><span class="ReCt"></span></span></li>
+              <li>Javascript Prog <span class="bar"><span class="JsPr"></span></span></li>
+              <li>MS Office <span class="bar"><span class="MsOf"></span></span></li>
+              <li>Content Writing <span class="bar"><span class="CoWr"></span></span></li>
+              <li>Web Scraping <span class="bar"><span class="WeSc"></span></span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------Projects------------------>
+  <div id="projects">
+    <h1 class="work">My work</h1>
+    <div class="portfolio">
+      <!---------------Info about projects----------------->
+      <div class="projInfo">
+        <p>
+          I have created quite a few projects based on Web Development.
+          Most of them include HTML, CSS and Javascript. To view my entire
+          colletion visit my
+          <b><a target="_blank" style="color: rgb(70, 66, 66);" href="https://github.com/skylark101">Github</a></b>
+          account.
+        </p>
+
+        <p>
+          If you like my work and wish to collaborate on a project, feel free
+          to contact me via
+          <b><a target="_blank" style="color: blue"
+              href="https://www.linkedin.com/in/ansh-khattar-b3077918b/">LinkedIn</a></b>. <br />Also, here is a
+          glimpse of my work.
+        </p>
+      </div>
+
+      <!---------------Demo of projects------------------->
+      <div class="carousel" data-flickity='{"Parallax":true,"wrapAround":true,"autoPlay":true}'>
+        <div class="carousel-cell cell1">
+          <div class="projectDetail pro1">
+            <p>Job's Done - A simple yet very useful job scheduler</p>
+            <a target="_blank" href="https://skylark101.github.io/Job-s_Done/">View Project</a>
+          </div>
+        </div>
+        <div class="carousel-cell cell2">
+          <div class="projectDetail pro2">
+            <p>VITSIC - A fully fledged student community</p>
+            <a target="_blank" href="">View Project</a>
+          </div>
+        </div>
+        <div class="carousel-cell cell3">
+          <div class="projectDetail pro3">
+            <p>YT - Length - A youtube playlist length calculator</p>
+            <a target="_blank" href="">View Project</a>
+          </div>
+        </div>
+      </div>
+      <!---------Projects Button-------------->
+      <div class="btnProj">
+        <a target="_blank" href="https://github.com/skylark101?tab=repositories"><button class="btnProject">
+            <i class="fa fa-star"> </i>
+            <p style="margin: auto;"> View all Projects</p>
+            <i class="fa fa-github"> </i>
+          </button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-----------------------Education info------------------->
+  <div class="Education">
+    <div class="eduHeading">
+      <h1>My Education</h1>
+      <h3>Every step counts.</h3>
+    </div>
+    <div class="timeLineItems">
+      <!--------------Timeline----------------->
+      <div class="timeLineItem">
+        <div class="timeLineDot"></div>
+        <div class="timeLineDate">2019 - Present</div>
+        <div class="timeLineContent">
+          <h3>College</h3>
+          <p>
+            <b>Vellore Institure of Technology, Chennai</b> <br />
+            3<sup>rd</sup> year CSE Undergrad <br />
+            <b>CGPA: 9.02</b> <br />
+           <span id="courseOver"> Course Overview <br />
+            Aspects of modern computer science such as Software engineering,
+            learning Data structure and algortihms. Also, industry based
+            courses like Microprocessors and IoT.</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="timeLineItem">
+        <div class="timeLineDot2"></div>
+        <div class="timeLineDate">2004 - 2019</div>
+        <div class="timeLineContent">
+          <h3>School</h3>
+          <p>
+            <b>Spring Dale College, Lucknow</b> <br />
+            ICSE - PCM <br />
+            <b>96.25%</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----------------Contact me---------------->
+  <div id="contact">
+    <h1 class="title">Say hello</h1>
+
+    <div class="contactDetails">
+
+      <div class="hello">
+        <p>
+          Hey there, thank you for visiting my website. I hope you liked what you saw.
+          Feel free to contact me anytime via any social media link
+          provided below.
+          <br>
+          <img src="./images/contact.jpg" alt="">
+        </p>
+      </div>
+
+     
+    </div>
+  </div>
+
+
+
+
+  <footer>
+    <div class="links">
+      <ul class="social">
+        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100070088269830"><img src="./images/fb.png"
+          alt="" /></a></li>
+          <li><a target="_blank" href="https://twitter.com/ansh_khattar?s01"><img src="./images/twitter.png" alt="" /></a>
+          </li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/ansh-khattar-b3077918b/"><img
+            src="./images/linkedin.png" alt="" /></a></li>
+        <li><a target="_blank" href="https://anshwebdev.blogspot.com/"><img src="./images/blog.png" alt="" /></a></li>
+        <li><a target="_blank" href="https://github.com/skylark101"><img src="./images/git.png" alt="" /></a></li>
+        <li><a target="_blank" href="https://stackoverflow.com/users/16099209/ansh-khattar"><img
+              src="./images/stack.png" alt="" /></a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <p>Copyright ©2021 Ansh Khattar</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+   
+ 
+
+</body>
+
+</html>
